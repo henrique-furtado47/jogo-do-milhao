@@ -82,11 +82,23 @@ if questaox=="RS" or questaox=="RJ" or questaox=="SP":
     exit()
 else:
     print("Beleza. Só por curiosidade. \n")
-questao9=str(input("Qual dessas marcas vendem processadores de computadores?\n a) Dell     b) Fiat\n c) Intel    d) Brastemp"))
+questao9=str(input("Qual dessas marcas vendem processadores de computadores?\n a) Dell     b) Fiat\n c) Intel    d) Brastemp \n"))
 if questao9=="c" or questao9=="C":
     print("Você acertou! Próxima questão.\n")
     pontuacao+=1
 else:
     print("Você errou, próxima questão.\n")
 print(f"Sua pontuação atual é {pontuacao}\n")
+questao10=int(input("Converta o número 1001101 para decimal: "))
+if questao10==77:
+    print("Parabéns!! Você acertou a última questão! Agora iremos conferir seu resultado.\n")
+    pontuacao+=1
+else:
+    print("Bahhh, você errou, mas não faz mal, agora iremos conferir seu resultado.\n")
+print(f"Sua pontuação terminou em {pontuacao} pontos")
+if pontuacao>=7:
+    print(f"Parabéns {nome}!!! Você conseguiu, você ganhou o jogo!!\n")
+else:
+    print("Bahh, você não conseguiu, quem sabe na próxima vez, foi uma boa tentativa.\n")
+print("Obrigado por jogar o jogo! Me siga no instagram @henrique.furtado47, github henrique-furtado47 e no LinkedIn Henrique Furtado.")
 
